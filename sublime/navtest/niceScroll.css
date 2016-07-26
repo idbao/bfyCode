@@ -1,0 +1,9 @@
+.ta{
+	width: 200px;
+	height: 150px;
+	border-radius: 3px;
+	border: 2px solid gray;
+	margin-left: 40%;
+	margin-top: 20px;
+	overflow-y: auto;
+}

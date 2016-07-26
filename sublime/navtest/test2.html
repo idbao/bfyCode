@@ -3,25 +3,19 @@
 <head> 
 <meta charset="utf-8"> 
 <script src="http://cdn.bootcss.com/jquery/3.0.0-beta1/jquery.js"></script>
+
 <link rel="stylesheet" type="text/css" href="mystyle2.css">
 <title></title> 
 </head> 
 <body> 
     <ul class="nav_tab" id="myTab">
-    <li class="test1 actives">test1</li>
-    <li class="test2">test2</li>
+    <li class="test1 actives" id="id-test1">test1</li>
+    <li class="test2" id="id-test2">test2</li>
 </ul>
 <div class="clear"></div>
- <div class="tab_content">
-	<div id="test1">
-	test1
-	</div>
-	<div id="test2">
-	test2
-	</div>
-</div>
 </body> 
-<script type="text/javascript">
+<script type="text/javascript" src="js/test.js"></script>
+<!-- <script type="text/javascript">
 	$("#myTab li").click(function (e) {
 	$(this).siblings(".actives").removeClass("actives");
 	var classes = $(this).attr("class");
@@ -29,5 +23,5 @@
 	$("#"+classes).siblings("div").fadeOut("fast");
 	$("#"+classes).fadeIn("fast");
 });
-</script>
+</script> -->
 </html>
